@@ -2,7 +2,9 @@
 R-functies om scoped html tabellen te maken t.b.v. digitoegankelijkheid.
 
 Om met deze functies te gebruiken in Rmarkdown/Quarto kan je knitr::raw_html() gebruiken.
-bijvoorbeeld: df %>% maak_simpele_html_tabel_met_scope(caption = "bla") %>% knitr::raw_html()
+
+bijvoorbeeld:
+ df %>% maak_simpele_html_tabel_met_scope(caption = "bla") %>% knitr::raw_html()
 
 # Wat heb je hier aan?
 Zie: https://www.w3.org/WAI/tutorials/tables/
