@@ -6,7 +6,7 @@ library(stringr)
 #data = een dataframe
 #caption = optioneel: Korte omschrijving van de tabel als string
 #row_header_column = optioneel: De kolom waarvan de waarden tot de row-headers worden gedoopt als string 
-#voorbeeld: iris %>% maak_simpele_html_tabel_met_scope(caption = "Afmetingen Irisbloemen per soort", row_header_column = "Species") 
+#voorbeeld: iris %>% maak_simpele_html_tabel_met_scope(caption = "Afmetingen Irisbloemen", row_header_column = "Species") 
 
 maak_simpele_html_tabel_met_scope <- function(data, caption = NULL, row_header_column = NULL){
   
