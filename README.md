@@ -6,7 +6,7 @@ bijvoorbeeld: df %>% maak_simpele_html_tabel_met_scope(caption = "bla") %>% knit
 
 # Wat heb je hier aan?
 Zie: https://www.w3.org/WAI/tutorials/tables/
-Scoped tabellen zijn een vereiste voor digitoegankelijkheid zodra een tabel niet heel klein is.
+Scoped tabellen zijn een vereiste voor digitoegankelijkheid (tenzij een tabel heel klein is en de waarden per kolom niet verward kunnen worden).
 
 HTML tabellen zonder 'scoped' rij en kolom-headers worden snel verwarrend als ze door een screen-reader worden voorgelezen
 Een screen reader leest dan namelijk alleen de waarde die in de cel staat voor.
