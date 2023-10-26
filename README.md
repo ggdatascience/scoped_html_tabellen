@@ -11,11 +11,11 @@ Scoped tabellen zijn een vereiste voor digitoegankelijkheid (tenzij een tabel he
 HTML tabellen zonder 'scoped' rij en kolom-headers worden snel verwarrend als ze door een screen-reader worden voorgelezen
 Een screen reader leest dan namelijk alleen de waarde die in de cel staat voor.
 
-In een tabel met veel kolommen geef alleen de waarde in een cel, bijvoorbeeld  '34' onvoldoende informatie.
+In een tabel met veel kolommen geef alleen de waarde in een cel, bijvoorbeeld  **'34'** onvoldoende informatie.
 Zeker als meerdere kolommen naast elkaar numerieke waarden kennen. Is 34 de leeftijd of de score van een deelnemer? 
 En om welke deelnemer van de 30 ging het eigenlijk?
 
-Als een tabel scoped rij- en kolomheaders leest een screen reader de cel voor als: Rij 20 Jan; Kolom 4 Leeftijd; 34
+Als een tabel scoped rij- en kolomheaders leest een screen reader de cel voor als: "Rij 20 Jan; Kolom 4 Leeftijd; **'34'**"
 
 Helaas lijken er geen standaardoplossingen te zijn om digitoegankelijke (dus scoped) tabellen te maken vanuit R/Rmarkdown.
 Vandaar tijdelijk de onderstaande functies die een dataframe omzetten naar een scoped html tabel.
