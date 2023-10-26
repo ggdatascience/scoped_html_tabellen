@@ -15,7 +15,7 @@ In een tabel met veel kolommen geef alleen de waarde in een cel, bijvoorbeeld  *
 Zeker als meerdere kolommen naast elkaar numerieke waarden kennen. Is 34 de leeftijd of de score van een deelnemer? 
 En om welke deelnemer van de 30 ging het eigenlijk?
 
-Als een tabel scoped rij- en kolomheaders leest een screen reader de cel voor als: "Rij 20 Jan; Kolom 4 Leeftijd; **'34'**"
+Als een tabel scoped rij- en kolomheaders heeft, leest een screen reader de cel voor als: "Rij 20 Jan; Kolom 4 Leeftijd; **'34'**"
 
 Helaas lijken er geen standaardoplossingen te zijn om digitoegankelijke (dus scoped) tabellen te maken vanuit R/Rmarkdown.
 Vandaar tijdelijk de onderstaande functies die een dataframe omzetten naar een scoped html tabel.
