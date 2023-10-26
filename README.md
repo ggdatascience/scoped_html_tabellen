@@ -10,7 +10,7 @@ bijvoorbeeld:
 Zie: https://www.w3.org/WAI/tutorials/tables/
 Scoped tabellen zijn een vereiste voor digitoegankelijkheid (tenzij een tabel heel klein is en de waarden per kolom niet verward kunnen worden).
 
-HTML tabellen zonder 'scoped' rij en kolom-headers worden snel verwarrend als ze door een screen-reader worden voorgelezen
+HTML tabellen zonder 'scoped' rij en kolom-headers worden snel verwarrend als ze door een screen-reader worden voorgelezen.
 Een screen reader leest dan namelijk alleen de waarde die in de cel staat voor.
 
 In een tabel met veel kolommen geef alleen de waarde in een cel, bijvoorbeeld  **'34'** onvoldoende informatie.
@@ -24,4 +24,3 @@ Vandaar tijdelijk de onderstaande functies die een dataframe omzetten naar een s
 
 Het zou nog beter zijn als deze functionaliteit in  DT/kable o.i.d wordt gemaakt
 Ik heb op github deze feature-request gevonden voor kable. Is nog hulp bij nodig.  https://github.com/yihui/knitr/issues/1747
- 
