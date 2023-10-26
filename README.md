@@ -6,6 +6,7 @@ Om met deze functies te gebruiken in Rmarkdown/Quarto kan je knitr::raw_html() g
 bijvoorbeeld:
  df %>% maak_simpele_html_tabel_met_scope(caption = "duidelijke beschrijving van tabel") %>% knitr::raw_html()
 
+
 # Wat heb je hier aan?
 Zie: https://www.w3.org/WAI/tutorials/tables/
 Scoped tabellen zijn een vereiste voor digitoegankelijkheid (tenzij een tabel heel klein is en de waarden per kolom niet verward kunnen worden).
@@ -22,5 +23,5 @@ Als een tabel scoped rij- en kolomheaders heeft, leest een screen reader de cel 
 Helaas lijken er geen standaardoplossingen te zijn om digitoegankelijke (dus scoped) tabellen te maken vanuit R/Rmarkdown.
 Vandaar tijdelijk de onderstaande functies die een dataframe omzetten naar een scoped html tabel.
 
-Het zou nog beter zijn als deze functionaliteit in  DT/kable o.i.d wordt gemaakt
+Het zou  beter zijn als deze functionaliteit in kable o.i.d wordt bijgevoegd.
 Ik heb op github deze feature-request gevonden voor kable. Is nog hulp bij nodig.  https://github.com/yihui/knitr/issues/1747
