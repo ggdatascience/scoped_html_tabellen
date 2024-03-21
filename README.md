@@ -1,3 +1,5 @@
+Update: de library gt doet dit al heel goed.
+
 # scoped_html_tabellen
 R-functies om scoped html tabellen te maken t.b.v. digitoegankelijkheid.
 
